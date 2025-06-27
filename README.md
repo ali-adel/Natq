@@ -33,5 +33,47 @@ Arabic is a complex and low-resource language for TTS. Our project tackles the c
 
 ---
 
-## 📁 Project Structure
+## 🧠 Model Architecture
+
+<p align="center">
+  <img src="assets/models_overview.png" alt="Models" width="80%">
+</p>
+
+### 🔧 Spectrogram Generators
+- [FastPitch](https://arxiv.org/abs/2006.06873)
+- [FastSpeech2](https://arxiv.org/abs/2006.04558)
+- [Mixer-TTS](https://arxiv.org/abs/2306.12313)
+- [Spark-TTS](https://arxiv.org/abs/2401.05930)
+
+### 🌀 Vocoder
+- [HiFi-GAN](https://arxiv.org/abs/2010.05646)
+
+### 🔡 Preprocessing
+- CATT for diacritization
+- Nawar Halabi's G2P converter (Phenomizer)
+
+---
+
+## 🧪 Samples
+
+| Model        | Sample 1 | Sample 2 |
+|--------------|----------|----------|
+| FastPitch    | 🔊 [Play](samples/fastpitch_1.wav) | 🔊 [Play](samples/fastpitch_2.wav) |
+| Mixer-TTS    | 🔊 [Play](samples/mixer_1.wav)    | 🔊 [Play](samples/mixer_2.wav)    |
+| Spark-TTS    | 🔊 [Play](samples/spark_1.wav)    | 🔊 [Play](samples/spark_2.wav)    |
+| FastSpeech2  | 🔊 [Play](samples/fs2_1.wav)      | 🔊 [Play](samples/fs2_2.wav)      |
+
+> 🎧 All models evaluated on both ClArTTS and Arabic Speech Corpus.
+
+---
+
+## 🚀 Deployment
+
+You can deploy the TTS system locally using:
+
+### Backend (FastAPI)
+```bash
+cd app
+pip install -r requirements.txt
+uvicorn main:app --reload
 
