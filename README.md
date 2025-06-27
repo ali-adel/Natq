@@ -48,32 +48,14 @@ Arabic is a complex and low-resource language for TTS. Our project tackles the c
 ### 🌀 Vocoder
 - [HiFi-GAN](https://arxiv.org/abs/2010.05646)
 
-### 🔡 Preprocessing
-- CATT for diacritization
-- Nawar Halabi's G2P converter (Phenomizer)
+## 🎧 Live Demo: Voice Cloning Samples
 
----
+Explore zero-shot Arabic TTS and voice cloning across models and languages.  
+We provide prompt audio, same-language generation, and cross-lingual synthesis examples.
 
-## 🧪 Samples
+👉 **[Click here to open the full demo page](https://ali-adel.github.io/Natq/demo.html)**  
+*(Best viewed on desktop for full layout experience)*
 
-| Model        | Sample 1 | Sample 2 |
-|--------------|----------|----------|
-| FastPitch    | 🔊 [Play](samples/fastpitch_1.wav) | 🔊 [Play](samples/fastpitch_2.wav) |
-| Mixer-TTS    | 🔊 [Play](samples/mixer_1.wav)    | 🔊 [Play](samples/mixer_2.wav)    |
-| Spark-TTS    | 🔊 [Play](spark.wav)    | 🔊 [Play](samples/spark_2.wav)    |
-| FastSpeech2  | 🔊 [Play](samples/fs2_1.wav)      | 🔊 [Play](samples/fs2_2.wav)      |
-
-> 🎧 All models evaluated on both ClArTTS and Arabic Speech Corpus.
-
----
-
-## 🚀 Deployment
-
-You can deploy the TTS system locally using:
-
-### Backend (FastAPI)
-```bash
-cd app
-pip install -r requirements.txt
-uvicorn main:app --reload
-
+<p align="center">
+  <img src="assets/demo_preview.png" width="80%" alt="Demo preview">
+</p>
