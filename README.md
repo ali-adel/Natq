@@ -60,7 +60,7 @@ Arabic is a complex and low-resource language for TTS. Our project tackles the c
 |--------------|----------|----------|
 | FastPitch    | 🔊 [Play](samples/fastpitch_1.wav) | 🔊 [Play](samples/fastpitch_2.wav) |
 | Mixer-TTS    | 🔊 [Play](samples/mixer_1.wav)    | 🔊 [Play](samples/mixer_2.wav)    |
-| Spark-TTS    | 🔊 [Play](samples/spark_1.wav)    | 🔊 [Play](samples/spark_2.wav)    |
+| Spark-TTS    | 🔊 [Play](spark.wav)    | 🔊 [Play](samples/spark_2.wav)    |
 | FastSpeech2  | 🔊 [Play](samples/fs2_1.wav)      | 🔊 [Play](samples/fs2_2.wav)      |
 
 > 🎧 All models evaluated on both ClArTTS and Arabic Speech Corpus.
