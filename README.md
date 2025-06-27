@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
 
-**Natq** (نطق) is an open-source Arabic Text-to-Speech (TTS) system developed as a graduation project at the Faculty of Computing and Artificial Intelligence, Helwan University. This system supports high-quality Arabic speech synthesis using modern deep learning models—built from scratch using public datasets and designed to handle diacritization and grapheme-to-phoneme (G2P) conversion for Arabic.
+**Natq** (ناطق) is an open-source Arabic Text-to-Speech (TTS) system developed as a graduation project at the Faculty of Computing and Artificial Intelligence, Helwan University. This system supports high-quality Arabic speech synthesis using modern deep learning models—built from scratch using public datasets and designed to handle diacritization and grapheme-to-phoneme (G2P) conversion for Arabic.
 
 <p align="center">
   <img src="assets/natq_pipeline.png" alt="Pipeline" width="80%">
